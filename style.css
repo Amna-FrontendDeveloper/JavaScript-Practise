@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(23, 27, 34);
+    color: white;
+}
+button{
+    padding: 1vw 2vw;
+    border-radius:10px ;
+    border: none;
+    margin: 5px;
+    background-color: rgba(32, 138, 76, 0.808);
+    color: rgb(255, 255, 255);
+}
+p{
+    font-size: 20px;
+}
+input{
+    border: none;
+    padding: 6px;
+    margin: 3px;
+    border-radius: 5px;
+}
+.tasks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+.task1{
+    padding: 3vw;
+    margin: 3vw;
+    height: 30vh;
+    width: 45vw;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    padding: 3vw;
+}
+.task2{
+    padding: 3vw;
+    margin: 3vw;
+    height: 40vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
+.task2 img{
+    width: 20vw;
+    padding: 5px;
+}
+.task3{
+    padding: 3vw;
+    margin: 3vw;
+    height: 25vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
+.task4{
+    padding: 3vw;
+    margin: 3vw;
+    height: 25vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
+.task5{
+    padding: 2vw;
+    margin: 3vw;
+    height: 30vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
