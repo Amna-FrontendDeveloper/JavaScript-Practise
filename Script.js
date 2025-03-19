@@ -87,3 +87,55 @@ reset.addEventListener('click',function () {
   h3.textContent = count;
   
  });
+
+ //task6
+ var home = document.querySelector('.home')
+ var contact = document.querySelector('.contact')
+ var about = document.querySelector('.about')
+ var homeText = document.querySelector('.homeText')
+ var contactText = document.querySelector('.contactText')
+ var aboutText = document.querySelector('.aboutText')
+
+ home.addEventListener('click',function(){
+
+  hideAllText()
+
+  homeText.style.display= 'block';
+ })
+ contact.addEventListener('click',function(){
+
+  hideAllText()
+
+  contactText.style.display= 'block';
+
+ })
+about.addEventListener('click',function(){
+
+  hideAllText()
+  aboutText.style.display= 'block';
+
+ })
+
+ function hideAllText(){
+  document.querySelectorAll('#p').forEach(function(p){
+    p.style.display = 'none';
+  })
+ }
+
+ //task7
+
+ var prg = document.querySelector('.progress')
+ var download = document.querySelector('.download')
+
+ var count = 0;
+ var int = setInterval(function(){
+if(count ===  100){
+  clearInterval(int)
+  download.style.opacity = '1'
+}
+count++;
+prg.style.width = count + '%'
+ },500)
+
+
+ 

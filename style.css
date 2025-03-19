@@ -73,3 +73,102 @@ h1{
 
     border: 2px solid black;
 }
+.task6{
+
+    padding: 3vw;
+    margin: 3vw;
+    height: 50vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
+.tabs{
+    display:flex;
+    gap: 8px;
+}
+.tabs h3{
+    background-color: #ffffff;
+    border: 1px solid #dadada;
+padding: 4px 8px;
+border-radius: 8px ;
+font-size: 15px;
+color: black;
+}
+.content p{
+
+display: none;
+}
+.task7{
+
+    padding: 3vw;
+    margin: 3vw;
+    height: 10vh;
+    width: 45vw;
+
+    border: 2px solid black;
+}
+.progresscontainer{
+    width: 25vw;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 100px;
+}
+.progress{
+    width: 10%;
+    height: 100%;
+    background-color: green;
+    border-radius: 100px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+}
+.download{
+    font-size: 15px;
+    opacity: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    padding: 10vw 25vw;
+
+}
+.people{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+}
+.Cinput{
+    width: 100%;
+    padding: 7px 10px;
+    outline-color: blue;
+    font-size: 2vw;
+}
+.person{
+    display: flex;
+    align-items: center;
+  
+    flex-direction: column;
+ width:fit-content;
+}
+.img{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Pname{
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 500;
+}
