@@ -1,10 +1,13 @@
 //task8
 var input = document.querySelector('input')
 var data = [
-    {name: 'Amna', src: './photo-1741557571786-e922da981949----2.avif'},
-    {name: 'AmnaMushtaq', src: './photo-1734899889244-37963ab66ca4.avif'},
-    {name: 'Fatima', src: './photo-1741567348603-0bef4612bea2.avif'},
-    {name: 'Ali', src: './photo-1741567348603-0bef4612bea2.avif'},
+    {name: 'Apple', src: './apple.jpeg'},
+    {name: 'Banana', src: './banana.jpeg'},
+    {name: 'Avocado', src: './Avocado.jpeg'},
+    {name: 'Strawberry', src: './stobery.jpeg'},
+    {name: 'Pineapple', src: './pineApple.jpeg'},
+    {name: 'Orange', src: './orange.jpeg'},
+    {name: 'Coconut ', src: './coconut.jpeg'},
    ]
    var pers = '';
    data.forEach(function(elem){
@@ -38,5 +41,16 @@ var data = [
     })
     document.querySelector('.people').innerHTML = newUsers;
  
+
+   })
+
+   //task9
+
+   var textarea = document.querySelector('textarea')
+   var counter = document.querySelector('.counter')
+
+   textarea.addEventListener('input',function(){
+ 
+   counter.textContent = textarea.value.length;
 
    })

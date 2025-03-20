@@ -102,7 +102,7 @@ display: none;
 
     padding: 3vw;
     margin: 3vw;
-    height: 10vh;
+    height: 30vh;
     width: 45vw;
 
     border: 2px solid black;
@@ -156,8 +156,8 @@ display: none;
 }
 .img{
     display: flex;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     overflow: hidden;
     margin-bottom: 15px;
@@ -171,4 +171,25 @@ display: none;
     font-size: 1.3rem;
     margin: 0;
     font-weight: 500;
+}
+.task9{
+    padding: 3vw;
+    margin-left: 25vw;
+    height: 40vh;
+    width: 45vw;
+    border: 2px solid black;
+}
+.task9 textarea{
+    padding: 10px;
+    outline: blue;
+    font-size: 20px;
+    resize: none;
+}
+a{
+  color: #dadada;
+  text-decoration: none;
+  border: 1px solid #dadada;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px;
 }
